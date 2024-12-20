@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexendo com caixas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           background-image: linear-gradient(to top,#1F40E0, #3C1FE0, #7C1FE0);
+           background-attachment: fixed;
+           margin: 0px;
+        }
+        header{
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(179, 179, 100);
+            padding: 10px;
+            box-shadow: 3px 2px 10px 1px rgba(0, 0, 0, 0.438);
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(255, 0, 0);
+        }
+        main{
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 10px 1px;
+        }
+        article{
+            background-color: rgb(230, 230, 187);
+            padding: 2px 10px;
+        }
+        article > aside{
+            background-color: rgb(148, 148, 143);
+        }
+        footer{
+            color: rgb(6, 115, 240);
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU TITULO DE SITE</h1>
+        <nav>
+           <a href="#">LINK</a>
+           <a href="#">LINK</a> 
+           <a href="#">LINK</a> 
+           <a href="#">LINK</a> 
+           <a href="#">LINK</a> 
+        </nav>
+    </header>
+    <main>
+        <section id="NOTICIAS">
+            <h2>Noticias de ultima hora</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique possimus illo reprehenderit maxime quidem tempore quos impedit alias aspernatur eius veniam provident omnis aliquam cum perferendis molestias, fugit saepe recusandae.</p>
+
+        </section>
+        <section id="ASSUNTOS">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illo ab maiores tempore, accusantium quo dolore rerum suscipit doloremque hic quos laudantium consequuntur similique dignissimos voluptatem laborum rem error quasi!</p>
+                <aside>
+                    FEITO POR H
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido pela corporação X
+    </footer>
+    
+</body>
+</html>
