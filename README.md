@@ -3,4 +3,4 @@
 
 Atualização 2.1 foi apresentada hoje para o chefe. Porfavo, trabalhar na otimização dela em 2 semanas.
 
-<a href="https://henriquermesquita.github.io/html-css/exercicios/DESAFIO07"Exercutar meu site android>
+<a href="https://henriquermesquita.github.io/html-css/exercicios/DESAFIO07/android.html"Exercutar meu site android>
