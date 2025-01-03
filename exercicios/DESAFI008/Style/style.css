@@ -67,9 +67,11 @@ section.normal{
 }
 section.imagem{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
     background-color: wheat;
     color: white;
     text-shadow: 1px 1px 2px 0px;
+    background-size: cover;
 }
 
 section.imagem > p{
@@ -92,13 +94,12 @@ main aside {
 }
 
 section#img01{
-    background-size: cover;
-    background-image: url(../Imagens/background001.jpg)
+    background-position: right center;
+    background-image: url(../Imagens/background001.jpg);
 
 }
 
 section#img02{
-    background-size: cover;
     background-image: url(../Imagens/background002.jpg)
 
 }
